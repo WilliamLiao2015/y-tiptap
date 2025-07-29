@@ -58,9 +58,9 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
-    "concurrently": "^4.1.0",
-    "http-server": "^0.12.3",
-    "jsdom": "^15.1.1",
+    "concurrently": "^9.2.0",
+    "http-server": "^14.1.1",
+    "jsdom": "^26.1.0",
     "prosemirror-example-setup": "^1.2.1",
     "prosemirror-model": "^1.18.1",
     "prosemirror-schema-basic": "^1.2.0",
