@@ -8,7 +8,7 @@
   "types": "./dist/src/y-tiptap.d.ts",
   "sideEffects": false,
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "npx rimraf dist",
     "dist": "npm run clean && rollup -c && tsc",
     "test": "npm run lint && rollup -c && node dist/test.cjs",
     "lint": "standard && tsc",
