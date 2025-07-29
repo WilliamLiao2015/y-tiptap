@@ -29,7 +29,8 @@
   },
   "files": [
     "dist/*",
-    "!dist/test.*"
+    "!dist/test.*",
+    "rollup.config.js"
   ],
   "repository": {
     "type": "git",
